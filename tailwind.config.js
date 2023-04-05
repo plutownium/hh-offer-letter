@@ -4,11 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        turquoise: '#09636B',
+        'off-white': '#DDFCFF',
+        celeste: '#C0FAFF',
         blue: '#15A3EF',
         tan: '#EBE6DB',
         gold: '#E1C453',
         orange: '#CD500C',
+        jet: '#333130',
+        black: '#000000',
+        oxford: '#0B1139',
       },
     },
   },
