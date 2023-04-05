@@ -18,22 +18,22 @@
 <div class="w-full flex flex-col items-center bg-blue">
   <div class="w-11/12 sm:w-10/12 md:w-9/12 mt-8 h-full">
     <div class="pb-12 h-3/5 flex flex-col items-center">
-      <h1 class="font-bold text-center text-oxford">
+      <h1 class="font-bold text-center text-oxford text-3xl sm:text-5xl">
         Uncover The Proven Method You Won’t Find On Google
       </h1>
 
-      <h1 class="font-bold text-center text-oxford">
+      <h1 class="font-bold text-center text-oxford text-3xl sm:text-5xl">
         Increase Your Pay As Much As Fifty Percent, <br />Trigger Bidding Wars, and Join the Top Ten
         Percent of Earners…
       </h1>
 
-      <h1 class="font-bold text-center text-oxford">
+      <h1 class="font-bold text-center text-oxford text-3xl sm:text-5xl">
         Even If You Currently Struggle to Get Interviews!
       </h1>
     </div>
     <div class="h-2/5 pb-4">
       <div class="h-full px-4 sm:px-12 lg:px-24 xl:px-40 py-8 flex items-center bg-sand">
-        <h2 class="font-bold text-center text-oxford">
+        <h2 class="font-bold text-center text-oxford text-xl">
           This is a 1718x ROI for anyone working in the following roles. (We did the math.)
         </h2>
       </div>
@@ -43,7 +43,7 @@
 <div class="pb-8 w-full flex flex-col items-center">
   <div class="w-11/12 sm:w-10/12 md:w-9/12 px-8">
     <!-- // placeholder -->
-    <h2 class="mt-8 mb-2">Are you a…</h2>
+    <h2 class="mt-8 mb-2 text-3xl sm:text-4xl">Are you a…</h2>
     <ExtraPaddingLeft>
       <ul class="list-with-bullets">
         <li>Software developer</li>
@@ -84,7 +84,7 @@
 <div class="">
   <StandardBox>
     <PaddingBox
-      ><div class="py-12">
+      ><div class="">
         <h2 class="text-oxford text-4xl">
           <span class="font-bold">If this is you,</span> it means you’re about to find out how you could
           increase your total compensation by 10 to 30% using a few hours of work.
@@ -259,7 +259,7 @@
           If you’d like to make the change described below, keep reading to find out how.
         </h2>
       </div>
-      <h3 class="text-2xl">Before:</h3>
+      <h3 class="text-2xl">Before state:</h3>
       <p>
         You feel undervalued and know it’s true. You find yourself pinching pennies when you never
         thought you’d have to. Friends and people on forums say your pay should be higher. You want
@@ -278,6 +278,8 @@
     </div>
 
     <div>
+      <h3 class="text-2xl">After state:</h3>
+
       <p>
         You’re paid what you’re worth. Ahead of the pack. The companies you work for see you as top
         talent, and pay accordingly.
@@ -1204,14 +1206,6 @@
 >
 
 <style>
-  h1 {
-    font-size: 2.4em;
-  }
-
-  h2 {
-    /* font-size: 1.8em; */
-  }
-
   h2,
   h3 {
     margin-top: 28px;
