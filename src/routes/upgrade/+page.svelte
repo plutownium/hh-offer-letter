@@ -8,9 +8,13 @@
   import TechniqueHeadline from '../../components/TechniqueHeadline.svelte'
   import WideBox from '../../components/WideBox.svelte'
 
-  import '../../app.css'
+  // import '../../app.css'
   import FloatyHeader from '../../components/FloatyHeader.svelte'
 </script>
+
+<svelte:head>
+  <link rel="stylesheet" href="/src/app.css" />
+</svelte:head>
 
 <!-- fixme: FOUC -->
 <FloatyHeader />
@@ -18,16 +22,16 @@
 <div class="w-full flex flex-col items-center bg-blue">
   <div class="w-11/12 sm:w-10/12 md:w-9/12 mt-8 h-full">
     <div class="pb-12 h-3/5 flex flex-col items-center">
-      <h1 class="font-bold text-center text-oxford text-3xl sm:text-5xl">
+      <h1 class="mt-8 font-bold text-center text-oxford text-3xl sm:text-5xl">
         Uncover The Proven Method You Won’t Find On Google
       </h1>
 
-      <h1 class="font-bold text-center text-oxford text-3xl sm:text-5xl">
-        Increase Your Pay As Much As Fifty Percent, <br />Trigger Bidding Wars, and Join the Top Ten
+      <h1 class="mt-8 font-bold text-center text-oxford text-3xl sm:text-5xl">
+        Increase Your Pay As Much As Fifty Percent, Trigger Bidding Wars, and Join the Top Ten
         Percent of Earners…
       </h1>
 
-      <h1 class="font-bold text-center text-oxford text-3xl sm:text-5xl">
+      <h1 class="mt-6 font-bold text-center text-oxford text-3xl sm:text-5xl">
         Even If You Currently Struggle to Get Interviews!
       </h1>
     </div>
