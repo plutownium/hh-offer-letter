@@ -143,15 +143,17 @@
 
         <p>Yet the Internet isn’t always helpful!</p>
       </div>
-      <div class="py-12">
+      <div class="">
         <h2 class="text-jet text-3xl">
-          Look how many people on Reddit have the same problem getting paid what they’re worth:
+          Millions of people are underpaid. You shouldn’t feel bad about it, but you should try to
+          fix it.
         </h2>
       </div>
       <div>
-        <!-- // todo: [ todo: insert gif] -->
-
-        <p>If advice on this topic is so common, why does the question come up over and over?</p>
+        <p>
+          If the Internet's advice on this topic is so common, why does the question come up over
+          and over on Reddit?
+        </p>
 
         <p>
           Shouldn’t Redditors be able to solve this so well that the search function is all anyone
@@ -160,9 +162,24 @@
 
         <p>Here’s typical Redditor advice you’ll receive about what to do when you’re underpaid:</p>
 
-        <!-- // todo: insert image -->
+        <div class="mt-4">
+          <img
+            src="/images/img00a.png"
+            alt="A reddit post that reads: Interview with other companies to find out what your labor is actually worth"
+          />
+        </div>
         <p>The advice shows up again in this thread:</p>
-        <!-- // todo: insert image -->
+
+        <div class="mt-4">
+          <img src="/images/img01.png" alt="Am I being underpaid at my current job?" />
+        </div>
+
+        <div class="mt-4">
+          <img
+            src="/images/img02.png"
+            alt="A reddit post that reads: Best way to find out is to apply to new roles & see what you get offered"
+          />
+        </div>
 
         <p>
           The reason this advice shows up so often is that it works. But even when people apply,
@@ -176,12 +193,12 @@
 
         <p>Here’s another redditor echoing this same truth:</p>
 
-        <!-- // todo: insert image -->
-        <p>
-          And yet another who recommends interviewing with other companies to find out what you’re
-          worth:
-        </p>
-        <!-- // todo: insert image -->
+        <div class="mt-4">
+          <img
+            src="/images/img03.png"
+            alt="A reddit post that reads: You are only worth what someone is willing to pay you"
+          />
+        </div>
 
         <p>Yet none of these posts address the glaring, valley-wide room for improvement:</p>
 
@@ -196,11 +213,8 @@
 </div>
 
 <!-- // todo: style bg color with gentle shade to alert reader -->
-<!-- <div class=""> -->
-<!-- <StandardBox> -->
-<!-- <PaddingBox> -->
 <WideBox>
-  <div class="mt-8 px-4 sm:px-12 lg:px-24 xl:px-40 py-2 bg-emerald">
+  <div class="mt-8 px-4 sm:px-12 lg:px-24 xl:px-40 py-2 bg-celeste">
     <div>
       <h2 class="text-3xl">
         “I have one of the highest demand skills in tech… yet I feel like I’m making minimum wage
@@ -235,9 +249,6 @@
     </div>
   </div>
 </WideBox>
-<!-- </PaddingBox> -->
-<!-- </StandardBox> -->
-<!-- </div> -->
 
 <StandardBox>
   <PaddingBox>
@@ -267,8 +278,6 @@
     </div>
 
     <div>
-      <!-- <h3 class="text-2xl">After:</h3> -->
-
       <p>
         You’re paid what you’re worth. Ahead of the pack. The companies you work for see you as top
         talent, and pay accordingly.
@@ -416,7 +425,14 @@
     </div>
     <div>
       <p>Consider this image:</p>
-      <!-- // todo: r gos and s carrell img -->
+
+      <div class="mt-4">
+        <img
+          class="h-96 max-w-full"
+          src="/images/img05.png"
+          alt="Ryan Gosling and Steve Carrell. Gosling is dressed fashionably; Carrell is dressed like a slob."
+        />
+      </div>
 
       <p>
         Steve Carrell is dressed in a poorly fitted polo, baggy jeans and beat up running shoes.
@@ -443,7 +459,13 @@
         character.
       </p>
 
-      <!-- todo: r gos meme with text -->
+      <div class="mt-4">
+        <img
+          class="h-96 max-w-full"
+          src="/images/img06.png"
+          alt="Same as before, but now Carrell is labeled 'manager' and Gosling is 'you'."
+        />
+      </div>
 
       <p>You want the hiring manager to be wowed by your presentation.</p>
 
@@ -456,6 +478,22 @@
       <p>Here’s more “advice” on the topic of being underpaid:</p>
 
       <!-- todo: img 1, img 2 -->
+
+      <div class="mt-4">
+        <img
+          class=""
+          src="/images/img07.png"
+          alt="A reddit post that reads: I know I'm underpaid for my level. What's the best way to bring this up?"
+        />
+      </div>
+
+      <div class="mt-4">
+        <img
+          class=""
+          src="/images/img08.png"
+          alt="A reddit post that reads: 'You don't, you leave for another company'."
+        />
+      </div>
 
       <h3 class="text-2xl">
         But we’re back to the same issue! If your skills are sharp, yet your offers don’t reflect
@@ -547,8 +585,13 @@
         <span class="underline">Tip #1</span>: Use a two or three page resume.
       </h3>
 
-      <!-- todo: hh tweet img -->
-
+      <div class="mt-4">
+        <img
+          class=""
+          src="/images/img09.png"
+          alt="A Headhunter tweet that says: 'Of the 50 candidates I've placed in the last year, exactly one had a single page resume.'"
+        />
+      </div>
       <p>The “It has to fit on one page” advice is bullshit.</p>
       <p class="font-bold">
         Of the fifty candidates I helped get hired this year, 49 of them used a two or three page
