@@ -118,8 +118,10 @@
 
         <p>
           Because improving your job hunting and negotiation abilities would be bad for their
-          clients, they don’t want you to improve.
+          clients.
         </p>
+
+        <p>They don’t want you to improve.</p>
 
         <p class="underline">
           In fact, recruiters and employers celebrate giving employees the short end of the stick in
@@ -187,11 +189,15 @@
           />
         </div>
 
+        <p>The reason this advice shows up so often is that it works.</p>
+        <p>Yet the advice is popular and common, so it’s “factored in” to your job search.</p>
+        <p>Said a different way: You can’t get extraordinary results by doing ordinary things.</p>
         <p>
-          The reason this advice shows up so often is that it works. But even when people apply,
-          they often come up short. Job hunting and interview skills often need work.
+          It’s the bare minimum. You’re already doing it! So the advice won’t get you to the top
+          10%.
         </p>
-
+        <p>Even when people do apply the Internet’s advice, they often come up short…</p>
+        <p>Because their job hunting and interview skills often need work.</p>
         <p>
           You can’t find better job offers if you can’t get to the interview stage… or make
           interviewers love you as a candidate.
