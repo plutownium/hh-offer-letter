@@ -41,19 +41,21 @@
   </div>
 </div>
 <div class="pb-8 w-full flex flex-col items-center">
-  <div class="w-11/12 sm:w-10/12 md:w-8/12">
+  <div class="w-11/12 sm:w-10/12 md:w-8/12 px-8">
     <!-- // placeholder -->
-    <h2>Are you a…</h2>
-    <ul>
-      <li>Software developer</li>
-      <li>Cybersecurity engineer</li>
-      <li>Systems engineer</li>
-      <li>Cloud engineer</li>
-      <li>Program manager</li>
-      <li>Project managers</li>
-      <li>Person in the above list who wants to see a $20,000 to $60,000 pay increase.</li>
-      <li>Person in the above list who wants to be in the top 5% of earners for their role.</li>
-    </ul>
+    <h2 class="mt-8 mb-2">Are you a…</h2>
+    <ExtraPaddingLeft>
+      <ul class="list-with-bullets">
+        <li>Software developer</li>
+        <li>Cybersecurity engineer</li>
+        <li>Systems engineer</li>
+        <li>Cloud engineer</li>
+        <li>Program manager</li>
+        <li>Project managers</li>
+        <li>Person in the above list who wants to see a $20,000 to $60,000 pay increase.</li>
+        <li>Person in the above list who wants to be in the top 5% of earners for their role.</li>
+      </ul>
+    </ExtraPaddingLeft>
 
     <p>If you are, ask yourself:</p>
 
@@ -79,11 +81,11 @@
   </div>
 </div>
 
-<div class="bg-nigh-black">
+<div class="">
   <StandardBox>
     <PaddingBox
       ><div class="py-12">
-        <h2 class="text-off-white">
+        <h2 class="text-oxford">
           <span class="font-bold">If this is you,</span> it means you’re about to find out how you could
           increase your total compensation by 10 to 30% using a few hours of work.
         </h2>
@@ -101,8 +103,9 @@
         <p>How?</p>
 
         <p>
-          By following a set of proven methods and techniques that hundreds of recruiters could tell
-          you about…
+          By following <span class="underline"
+            >a set of proven methods and techniques that hundreds of recruiters could tell you about</span
+          >…
         </p>
 
         <p>But none will.</p>
@@ -119,7 +122,7 @@
 
         <p>However, I’m here to help.</p>
 
-        <p>It doesn’t have to be this way.</p>
+        <p>To tell you: It doesn’t have to be this way.</p>
 
         <p>
           You don’t have to continue as an underpaid, undervalued member of your team for the rest
@@ -146,7 +149,7 @@
         </h2>
       </div>
       <div>
-        // todo: [ todo: insert gif]
+        <!-- // todo: [ todo: insert gif] -->
 
         <p>If advice on this topic is so common, why does the question come up over and over?</p>
 
@@ -193,53 +196,59 @@
 </div>
 
 <!-- // todo: style bg color with gentle shade to alert reader -->
-<div class="bg-nigh-black">
-  <StandardBox>
-    <PaddingBox>
-      <div>
-        <h2>
-          “I have one of the highest demand skills in tech… yet I feel like I’m making minimum wage
-          all over again."
-        </h2>
-      </div>
-      <div>
-        <p>Ouch.</p>
+<!-- <div class=""> -->
+<!-- <StandardBox> -->
+<!-- <PaddingBox> -->
+<WideBox>
+  <div class="mt-8 px-4 sm:px-12 lg:px-24 xl:px-40 py-2 bg-gold">
+    <div>
+      <h2 class="text-3xl">
+        “I have one of the highest demand skills in tech… yet I feel like I’m making minimum wage
+        all over again."
+      </h2>
+    </div>
+    <div class="mb-8">
+      <p>Ouch.</p>
 
-        <p>You thought your financial woes were over when you went into tech.</p>
+      <p>You thought your financial woes were over when you went into tech.</p>
 
-        <p>Society told you it’s an “in demand role,” yet you know you’re being underpaid.</p>
+      <p>Society told you it’s an “in demand role,” yet you know you’re being underpaid.</p>
 
-        <p>Sites that report compensation say your compensation should be higher.</p>
+      <p>Sites that report compensation say your compensation should be higher.</p>
 
-        <p>Friends from other companies say your compensation should be higher.</p>
+      <p>Friends from other companies say your compensation should be higher.</p>
 
-        <p>Your boss says your compensation… is right where it belongs!</p>
+      <p>Your boss says your compensation… is right where it belongs!</p>
 
-        <p>
-          That it is “all they can afford at the moment” even though your coworker just got a raise.
-        </p>
+      <p>
+        That it is “all they can afford at the moment” even though your coworker just got a raise.
+      </p>
 
-        <p>
-          You’d leave for another company if you could. Yet when you try to find a higher paying
-          role, it’s tough to find one!
-        </p>
+      <p>
+        You’d leave for another company if you could. Yet when you try to find a higher paying role,
+        it’s tough to find one!
+      </p>
 
-        <p>Aren’t your skills supposed to be in demand?</p>
+      <p>Aren’t your skills supposed to be in demand?</p>
 
-        <p>What’s going on here?</p>
-      </div>
-      <div>
-        <!-- // todo: color this entire box a color bg color so get attention -->
-        <h2>If you’d like to make the change described below, keep reading to find out how.</h2>
-      </div>
-    </PaddingBox>
-  </StandardBox>
-</div>
+      <p>What’s going on here?</p>
+    </div>
+  </div>
+</WideBox>
+<!-- </PaddingBox> -->
+<!-- </StandardBox> -->
+<!-- </div> -->
 
 <StandardBox>
   <PaddingBox>
     <div>
-      <h3>Before:</h3>
+      <div>
+        <!-- // todo: color this entire box a color bg color so get attention -->
+        <h2 class="text-3xl">
+          If you’d like to make the change described below, keep reading to find out how.
+        </h2>
+      </div>
+      <h3 class="text-2xl">Before:</h3>
       <p>
         You feel undervalued and know it’s true. You find yourself pinching pennies when you never
         thought you’d have to. Friends and people on forums say your pay should be higher. You want
@@ -254,11 +263,11 @@
     </div>
 
     <div>
-      <h3>I’d like to show you how you can get from there, to here:</h3>
+      <h3 class="text-2xl">I’d like to show you how you can get from there, to here:</h3>
     </div>
 
     <div>
-      <h3>After:</h3>
+      <h3 class="text-2xl">After:</h3>
 
       <p>
         You’re paid what you’re worth. Ahead of the pack. The companies you work for see you as top
@@ -278,13 +287,13 @@
       </p>
     </div>
     <div>
-      <h3>Would you rather have</h3>
+      <h3 class="text-2xl">Would you rather have:</h3>
       <!-- // todo: "this' on " the left, "or this" on the right. -->
       <!-- todo: style on mobile -->
       <div class="flex">
         <div>
-          <h4 class="underline">This...</h4>
-          <ul>
+          <h4 class="underline text-2xl">This...</h4>
+          <ul class="list-with-bullets pl-5">
             <li>
               Turned down for a raise by your boss. He raises his hand to silence you mid pitch.
             </li>
@@ -297,9 +306,9 @@
           </ul>
         </div>
         <div>
-          <h4 class="underline">Or this?</h4>
+          <h4 class="underline text-2xl">Or this?</h4>
 
-          <ul>
+          <ul class="list-with-bullets pl-5">
             <li>
               Welcomed into day 1 of a new role with 37% higher TC; they say “glad we got you out of
               there”
@@ -330,8 +339,8 @@
 <StandardBox>
   <PaddingBox>
     <div>
-      <h3>With the advice you receive today, you’ll have:</h3>
-      <ul>
+      <h3 class="text-2xl">With the advice you receive today, you’ll have:</h3>
+      <ul class="list-with-bullets pl-5">
         <li>A calendar that has an interview on 9 of 10 work days.</li>
         <li>Some days have more than one interview!</li>
         <li>
@@ -342,9 +351,9 @@
         </li>
       </ul>
 
-      <h3>And you’ll avoid:</h3>
+      <h3 class="text-2xl">And you’ll avoid:</h3>
 
-      <ul>
+      <ul class="list-with-bullets pl-5">
         <li>
           Sending your resume out 2,000x only to get an offer that is “pretty much the same” as what
           you have now.
@@ -441,7 +450,7 @@
 
       <!-- todo: img 1, img 2 -->
 
-      <h3>
+      <h3 class="text-2xl">
         But we’re back to the same issue! If your skills are sharp, yet your offers don’t reflect
         what you feel you’re worth…
       </h3>
@@ -454,11 +463,11 @@
         >.
       </p>
 
-      <h2>I’ll tell you how it really is:</h2>
+      <h2 class="text-3xl">I’ll tell you how it really is:</h2>
 
       <p>
-        You’re underpaid because the entire system is setup to hold you back from being well paid to
-        the best of its ability.
+        You’re underpaid because <span class="text-orange font-bold">the entire system</span> is setup
+        to hold you back from being well paid to the best of its ability.
       </p>
 
       <p>Your boss wants your pay to be low.</p>
@@ -467,11 +476,17 @@
 
       <p>Other companies want your pay to be low.</p>
 
-      <p>All of them have something in common: They’re out to help themselves, not you.</p>
+      <p>All of them have one thing in common:</p>
+
+      <p>They’re out to help themselves, not you.</p>
 
       <p>So how can you get ahead when everyone is trying to hold you back?</p>
 
-      <h2>You need to have an in-the-know IT recruiter who’s on your side.</h2>
+      <h2 class="text-blue font-bold text-4xl">
+        You need to have an in-the-know IT recruiter who’s <span class="underline"
+          >on your side</span
+        >.
+      </h2>
 
       <p>
         You’ll learn a lot of hidden gems of wisdom that only experienced recruiters could tell you.
@@ -494,7 +509,7 @@
       <p>Yet I’m willing to help you.</p>
 
       <p class="font-bold">
-        Because helping someone change careers to go from $40,000/year to $100,000/year is
+        Because helping someone change careers and go from $40,000/year to $100,000/year is
         satisfying.
       </p>
 
@@ -517,10 +532,13 @@
 <StandardBox
   ><PaddingBox>
     <div>
-      <h2>Four Free Ways to Improve Your Resume Today</h2>
+      <h2 class="text-4xl">Four Free Ways to Improve Your Resume Today</h2>
     </div>
     <div>
-      <h3><span class="underline">Tip #1</span>: Use a two or three page resume.</h3>
+      <p class="">If the free advice is good, what's the full service like?</p>
+      <h3 class="mt-8 text-2xl">
+        <span class="underline">Tip #1</span>: Use a two or three page resume.
+      </h3>
 
       <!-- todo: hh tweet img -->
 
@@ -539,7 +557,9 @@
         So long as you follow the next tips, you’ll see an improvement by adding a second page.
         (Supposing you don’t adhere to them already, anyway.)
       </p>
-      <h3>Tip #2: Use a simple low-design approach.</h3>
+      <h3 class="text-2xl">
+        <span class="underline">Tip #2</span>: Use a simple low-design approach.
+      </h3>
 
       <p>
         While you don’t want to present a document with zero formatting, making the resume flashy is
@@ -549,7 +569,9 @@
       <p>You want your features and benefits to stand on their own.</p>
       <p>The design takes attention away from the bullet points.</p>
       <p>So by using low-design, you allow the bullet points to “speak for themselves.”</p>
-      <h3>Tip #3: Use language from the job post you are applying to.</h3>
+      <h3 class="text-2xl">
+        <span class="underline">Tip #3</span>: Use language from the job post you are applying to.
+      </h3>
 
       <p>It takes far more time, but the upside is huge: Recruiters will recognize</p>
       <p>Your application really was crafted specifically for that posting.</p>
@@ -561,23 +583,26 @@
       <p>That means you’ll get more interviews.</p>
       <p>That means you’ll be in demand.</p>
       <p>That means you’ll be offered more money.</p>
-      <h3>Tip #4: Using specific detailed bullet points that are quantified.</h3>
+      <h3 class="text-2xl">
+        <span class="underline">Tip #4</span>: Using specific detailed bullet points that are
+        quantified.
+      </h3>
 
       <p>If you aren’t in the habit of doing this, it will take work to start doing it.</p>
       <p>But…</p>
       <p>It will be well worth the effort.</p>
-      <p>Don’t say: “Reduced call time from the database.”</p>
+      <p><span class="underline">Don’t say</span>: “Reduced call time from the database.”</p>
       <p>
-        Do say: “Reduced call time from the database by 37% by decreasing read algorithms from
-        O(nlogn) to O(n).”
+        <span class="underline">Do say</span>: “Reduced call time from the database by 37% by
+        decreasing read algorithms from O(nlogn) to O(n).”
       </p>
       <p>
-        Don’t say: “Decreased page load speed by converting to Tailwind, yielding a decrease in the
-        bounce rate.”
+        <span class="underline">Don’t say</span>: “Decreased page load speed by converting to
+        Tailwind, yielding a decrease in the bounce rate.”
       </p>
       <p>
-        Do say: “Decreased page load speed by 48% by converting from CSS to Tailwind, yielding a 26%
-        decrease in the bounce rate.”
+        <span class="underline">Do say</span>: “Decreased page load speed by 48% by converting from
+        CSS to Tailwind, yielding a 26% decrease in the bounce rate.”
       </p>
 
       <p>
@@ -606,23 +631,25 @@
 <StandardBox
   ><PaddingBox>
     <div>
-      <h2>
+      <h2 class="text-3xl">
         If you’re not the type of person to ask for help from an expert, the above advice will be
         all you need to make sure you’re “dialing in the basics.”
       </h2>
 
-      <h2>
+      <h2 class="text-3xl">
         But if you sense that <span class="underline"
           >investing in your career’s success is the right move</span
         >, and you’d like to receive <span class="underline">recruiter secrets</span>…
       </h2>
 
-      <h2>Read on to find out everything you’d need to know to make an informed decision.</h2>
+      <h2 class="text-3xl">
+        Read on to find out everything you’d need to know to make an informed decision.
+      </h2>
     </div>
     <div>
       <p>First, let’s address who this is not for:</p>
 
-      <li>
+      <li class="mt-4">
         You’re convinced your resume and job hunting skills have to be “perfect” to land a pay
         increase.
       </li>
@@ -633,17 +660,19 @@
         you.
       </p>
 
-      <li>You’re certain you’re already paid what you’re worth.</li>
+      <li class="mt-4">You’re certain you’re already paid what you’re worth.</li>
 
       <p>Almost all employees have room for improvement in their compensation.</p>
 
       <p>If you’re a top 3% earner at your company and you know it, you don’t need this advice!</p>
 
-      <li>You think presenting yourself well to gain money would be “unethical.”</li>
+      <li class="mt-4">You think presenting yourself well to gain money would be “unethical.”</li>
 
       <p>Or…</p>
 
-      <li>You can’t or won’t take advice about how to present yourself in interviews.</li>
+      <li class="mt-4">
+        You can’t or won’t take advice about how to present yourself in interviews.
+      </li>
 
       <p>Were I to advise you on how to do your job, you would be right to ignore me.</p>
 
@@ -654,13 +683,17 @@
         won’t work for you.
       </p>
 
-      <li>You think you know better than a recruiter about what does and doesn’t work.</li>
+      <li class="mt-4">
+        You think you know better than a recruiter about what does and doesn’t work.
+      </li>
 
       <p>Same story as above. You have to be prepared to execute on the advice you receive.</p>
 
       <p>If you don’t, my advice won’t work.</p>
 
-      <li>You aren’t prepared to use inside secrets to get an edge over competitors.</li>
+      <li class="mt-4">
+        You aren’t prepared to use inside secrets to get an edge over competitors.
+      </li>
 
       <p>
         If you’re worried that receiving inside secrets to gain an unfair advantage over employers
@@ -676,10 +709,10 @@
 
 <StandardBox
   ><PaddingBox>
-    <div>
-      <h3 class="italics">Still here?</h3>
+    <div class="text-center">
+      <h3 class="italic text-3xl">Still here?</h3>
 
-      <h3 class="italics">Great. Let’s move forward.</h3>
+      <h3 class="italic text-3xl">Great. Let’s move forward.</h3>
     </div>
     <div>
       <p>We need to talk about what happens when you use a “Do It Yourself” solution.</p>
@@ -698,13 +731,13 @@
       </p>
     </div>
     <div>
-      <h2>
-        Why Google Doesn’t Work, Gives You Bad Advice, and Leaves You Struggling to Make Sense of
-        Advice All On Your Own
+      <h2 class="text-3xl">
+        Why <span class="font-bold">Google Doesn’t Work</span>, Gives You Bad Advice, and Leaves You
+        Struggling to Make Sense of Advice All On Your Own
       </h2>
 
-      <p>Here’s what you can find out for free on Google:</p>
-      <ul>
+      <p class="mb-4">Here’s what you can find out for free on Google:</p>
+      <ul class="list-with-bullets pl-5">
         <li>“Use a one page resume.” (A myth.)</li>
         <li>Repetitious advice you’re already be taking.</li>
         <li>Generic advice that applies to a similar role but not yours.</li>
@@ -712,8 +745,8 @@
         <li>Long blog posts that are 99% filler and 1% actionable advice.</li>
       </ul>
 
-      <p>Yet Google won’t tell you:</p>
-      <ul>
+      <p class="mt-8 mb-4">Yet Google won’t tell you:</p>
+      <ul class="list-with-bullets pl-5">
         <li>That some of the highest paid candidates use a 3 page resume.</li>
         <li>The recruiters’ best plays to secure high income in interviews.</li>
         <li>How, specifically, to customize and present your work experience to a job posting.</li>
@@ -758,8 +791,8 @@
       </p>
 
       <p>Using Google, you’ll be missing:</p>
-      <ul>
-        <li>Step by step instructions to diagnose problems if and when they occur.</li>
+      <ul class="list-with-bullets pl-5">
+        <li class="mt-4">Step by step instructions to diagnose problems if and when they occur.</li>
         <li>Word by word instructions on how top paid performers present themselves.</li>
         <li>
           The resume writing tips I present to superstar candidates I really want credit for hiring.
@@ -769,8 +802,8 @@
 
       <p>And using my advice, you’ll advance your career without:</p>
 
-      <ul>
-        <li>
+      <ul class="list-with-bullets pl-5">
+        <li class="mt-4">
           Receiving a confusing system of twists and turns so daunting you can’t even start to use
           it.
         </li>
@@ -796,12 +829,12 @@
 <StandardBox
   ><PaddingBox>
     <div>
-      <h2>
+      <h2 class="text-3xl">
         Your employer and the recruiters they work with want you stuck in your low paying position
         for the rest of your life.
       </h2>
 
-      <h2>
+      <h2 class="text-3xl">
         They don’t care that you have or will have a family to feed, a house to pay for, and dreams
         all of your own.
       </h2>
@@ -857,7 +890,7 @@
   <StandardBox
     ><PaddingBox>
       <div>
-        <h2>The secret methods you’ll receive to increase your salary include:</h2>
+        <h2 class="text-3xl">The secret methods you’ll receive to increase your salary include:</h2>
 
         <p class="text-lg">
           <span class="underline">Secret #1</span>: The three step process to turning your work
@@ -980,7 +1013,7 @@
 <StandardBox>
   <PaddingBox>
     <div>
-      <h2>Become One of A Hundred People to Invest This Month</h2>
+      <h2 class="text-3xl">Become One of A Hundred People to Invest This Month</h2>
 
       <p>
         Invest today to ensure you don’t lose access to advice that will add 10 to 30% to your
@@ -1009,12 +1042,14 @@
       <div class="w-full flex justify-center">
         <div>
           <div>
-            <h3>What I could charge: <span class="line-through">$3,000</span></h3>
+            <h3 class="text-2xl">What I could charge: <span class="line-through">$3,000</span></h3>
           </div>
           <div>
-            <h3>What I charge for a 1 on 1: <span class="line-through">$500</span></h3>
+            <h3 class="text-2xl">
+              What I charge for a 1 on 1: <span class="line-through">$500</span>
+            </h3>
           </div>
-          <div><h3>Your investment: $87.</h3></div>
+          <div><h3 class="text-2xl">Your investment: $87.</h3></div>
         </div>
       </div>
     </div>
@@ -1024,7 +1059,7 @@
 <StandardBox
   ><PaddingBox>
     <div>
-      <h2>A Guaranteed Return On Investment</h2>
+      <h2 class="text-3xl">A Guaranteed Return On Investment</h2>
 
       <p>
         Provide screenshots proving you sent out 1,000 applications since investing in this service
@@ -1092,16 +1127,27 @@
   }
 
   h2 {
-    font-size: 1.8em;
+    /* font-size: 1.8em; */
+  }
+
+  h2,
+  h3 {
+    margin-top: 28px;
+    margin-bottom: 20px;
   }
 
   .list-with-bullets > li {
+    list-style-type: disc;
     font-size: 20px;
   }
 
   p,
   li {
     font-size: 20px;
+  }
+
+  p {
+    margin-top: 12px;
   }
 
   .mixed-group > * {

@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         'off-white': '#DDFCFF',
-        celeste: '#C0FAFF',
+        celeste: '#E6FDFF',
         blue: '#15A3EF',
         tan: '#EBE6DB',
         gold: '#E1C453',
