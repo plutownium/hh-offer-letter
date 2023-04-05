@@ -8,30 +8,32 @@
   import TechniqueHeadline from '../../components/TechniqueHeadline.svelte'
   import WideBox from '../../components/WideBox.svelte'
 
-  import '../app.css'
+  import '../../app.css'
   import FloatyHeader from '../../components/FloatyHeader.svelte'
-  import LandingCTAButton from '../../components/LandingCTAButton.svelte'
 </script>
 
+<!-- fixme: FOUC -->
 <FloatyHeader />
 <div class="h-24" />
-<div class="w-full flex flex-col items-center bg-nigh-black">
+<div class="w-full flex flex-col items-center bg-blue">
   <div class="w-11/12 sm:w-10/12 md:w-8/12 mt-8 h-full">
     <div class="pb-12 h-3/5 flex flex-col items-center">
-      <h1 class="font-bold text-center text-off-white">
+      <h1 class="font-bold text-center text-oxford">
         Uncover The Proven Method You Won’t Find On Google
       </h1>
 
-      <h1 class="text-center">
+      <h1 class="font-bold text-center text-oxford">
         Increase Your Pay As Much As Fifty Percent, <br />Trigger Bidding Wars, and Join the Top Ten
         Percent of Earners…
       </h1>
 
-      <h1 class="text-center">Even If You Currently Struggle to Get Interviews!</h1>
+      <h1 class="font-bold text-center text-oxford">
+        Even If You Currently Struggle to Get Interviews!
+      </h1>
     </div>
-    <div class="h-2/5">
+    <div class="h-2/5 pb-4">
       <div class="h-full px-4 sm:px-12 lg:px-24 xl:px-40 py-8 flex items-center bg-sand">
-        <h2 class="font-bold text-center text-nigh-black">
+        <h2 class="font-bold text-center text-oxford">
           This is a 1718x ROI for anyone working in the following roles. (We did the math.)
         </h2>
       </div>
