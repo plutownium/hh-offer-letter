@@ -216,7 +216,7 @@
 <WideBox>
   <div class="mt-8 px-4 sm:px-12 lg:px-24 xl:px-40 py-2 bg-celeste">
     <div>
-      <h2 class="text-3xl">
+      <h2 class="text-3xl text-center">
         “I have one of the highest demand skills in tech… yet I feel like I’m making minimum wage
         all over again."
       </h2>
@@ -529,7 +529,7 @@
 
       <p>So how can you get ahead when everyone is trying to hold you back?</p>
 
-      <h2 class="text-blue font-bold text-4xl">
+      <h2 class="text-center text-blue font-bold text-4xl">
         You need to have an in-the-know IT recruiter who’s <span class="underline"
           >on your side</span
         >.
