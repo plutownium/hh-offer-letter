@@ -36,11 +36,12 @@
     </div>
     <div class="h-2/5 pb-4">
       <div
-        class="h-full px-4 sm:px-12 lg:px-24 xl:px-40 py-8 flex justify-center items-center bg-sand"
+        class="h-full px-4 sm:px-12 lg:px-24 xl:px-40 py-8 flex justify-center flex-col items-center bg-sand"
       >
         <h2 class="font-bold text-center text-oxford text-xl">
-          This is a 1718x ROI for anyone working in the following roles.<br /> (We did the math.)
+          This is a 1718x ROI for anyone working in the following roles.
         </h2>
+        <p class="font-bold text-lg">(We did the math.)</p>
       </div>
     </div>
   </div>
