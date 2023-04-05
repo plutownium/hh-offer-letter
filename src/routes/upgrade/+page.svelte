@@ -16,7 +16,7 @@
 <FloatyHeader />
 <div class="h-24" />
 <div class="w-full flex flex-col items-center bg-blue">
-  <div class="w-11/12 sm:w-10/12 md:w-8/12 mt-8 h-full">
+  <div class="w-11/12 sm:w-10/12 md:w-9/12 mt-8 h-full">
     <div class="pb-12 h-3/5 flex flex-col items-center">
       <h1 class="font-bold text-center text-oxford">
         Uncover The Proven Method You Won’t Find On Google
@@ -41,7 +41,7 @@
   </div>
 </div>
 <div class="pb-8 w-full flex flex-col items-center">
-  <div class="w-11/12 sm:w-10/12 md:w-8/12 px-8">
+  <div class="w-11/12 sm:w-10/12 md:w-9/12 px-8">
     <!-- // placeholder -->
     <h2 class="mt-8 mb-2">Are you a…</h2>
     <ExtraPaddingLeft>
@@ -85,7 +85,7 @@
   <StandardBox>
     <PaddingBox
       ><div class="py-12">
-        <h2 class="text-oxford">
+        <h2 class="text-oxford text-4xl">
           <span class="font-bold">If this is you,</span> it means you’re about to find out how you could
           increase your total compensation by 10 to 30% using a few hours of work.
         </h2>
@@ -144,7 +144,7 @@
         <p>Yet the Internet isn’t always helpful!</p>
       </div>
       <div class="py-12">
-        <h2 class="text-off-white">
+        <h2 class="text-jet text-3xl">
           Look how many people on Reddit have the same problem getting paid what they’re worth:
         </h2>
       </div>
@@ -200,7 +200,7 @@
 <!-- <StandardBox> -->
 <!-- <PaddingBox> -->
 <WideBox>
-  <div class="mt-8 px-4 sm:px-12 lg:px-24 xl:px-40 py-2 bg-gold">
+  <div class="mt-8 px-4 sm:px-12 lg:px-24 xl:px-40 py-2 bg-emerald">
     <div>
       <h2 class="text-3xl">
         “I have one of the highest demand skills in tech… yet I feel like I’m making minimum wage
@@ -286,55 +286,58 @@
         finding new roles with higher pay.
       </p>
     </div>
-    <div>
-      <h3 class="text-2xl">Would you rather have:</h3>
-      <!-- // todo: "this' on " the left, "or this" on the right. -->
-      <!-- todo: style on mobile -->
-      <div class="flex">
-        <div>
-          <h4 class="underline text-2xl">This...</h4>
-          <ul class="list-with-bullets pl-5">
-            <li>
-              Turned down for a raise by your boss. He raises his hand to silence you mid pitch.
-            </li>
-            <li>See your biweekly payday hit your bank account and wish for more.</li>
-            <li>Know yourself as a financial underperformer</li>
-            <li>
-              Rejection letters pile up in your inbox every time you apply… but you get few
-              interviews.
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="underline text-2xl">Or this?</h4>
-
-          <ul class="list-with-bullets pl-5">
-            <li>
-              Welcomed into day 1 of a new role with 37% higher TC; they say “glad we got you out of
-              there”
-            </li>
-            <li>
-              See your biweekly pay hit and feeling relieved, every time it happens, for weeks or
-              months
-            </li>
-            <li>Know your value and see it reflected in your bank statements.</li>
-            <li>A calendar full of job interviews for higher income roles.</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <p>If you find yourself living through the left column, you should know:</p>
-
-        <p>Your <span class="italic">job skills</span> don’t tell the whole story.</p>
-
-        <p class="underline">
-          Your <span class="font-bold">job hunting skills</span> contribute just as much if not more
-          to your compensation.
-        </p>
-      </div>
-    </div>
   </PaddingBox>
 </StandardBox>
+<WideBox>
+  <!-- px-4 sm:px-12 lg:px-24 xl:px-40 -->
+  <div class="px-2 sm:px-6 lg:px-12 xl:px-20 border-4 border-coral">
+    <h3 class="px-2 sm:px-6 lg:px-12 xl:px-20 text-2xl">Would you rather have:</h3>
+    <!-- // todo: "this' on " the left, "or this" on the right. -->
+    <!-- todo: style on mobile -->
+    <div class="flex">
+      <div class="py-4 pl-2 sm:pl-6 lg:pl-12 xl:pl-20 pr-1 sm:pr-2 lg:pr-6 xl:pr-12 bg-coral">
+        <h4 class="underline text-2xl font-bold">This...</h4>
+        <ul class="list-with-bullets pl-5">
+          <li>
+            Turned down for a raise by your boss. He raises his hand to silence you mid pitch.
+          </li>
+          <li>See your biweekly payday hit your bank account and wish for more.</li>
+          <li>Know yourself as a financial underperformer</li>
+          <li>
+            Rejection letters pile up in your inbox every time you apply… but you get few
+            interviews.
+          </li>
+        </ul>
+      </div>
+      <div class="py-4 pr-2 sm:pr-6 lg:pr-12 xl:pr-20 pl-1 sm:pl-2 lg:pl-6 xl:pl-12 bg-emerald">
+        <h4 class="underline text-2xl font-bold">Or this?</h4>
+
+        <ul class="list-with-bullets pl-5">
+          <li>
+            Welcomed into day 1 of a new role with 37% higher TC; they say “glad we got you out of
+            there”
+          </li>
+          <li>
+            See your biweekly pay hit and feeling relieved, every time it happens, for weeks or
+            months
+          </li>
+          <li>Know your value and see it reflected in your bank statements.</li>
+          <li>A calendar full of job interviews for higher income roles.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="px-2 sm:px-6 lg:px-12 xl:px-20">
+      <p>If you find yourself living through the left column, you should know:</p>
+
+      <p>Your <span class="italic">job skills</span> don’t tell the whole story.</p>
+
+      <p class="underline">
+        Your <span class="font-bold">job hunting skills</span> contribute just as much if not more to
+        your compensation.
+      </p>
+    </div>
+  </div>
+</WideBox>
 
 <StandardBox>
   <PaddingBox>

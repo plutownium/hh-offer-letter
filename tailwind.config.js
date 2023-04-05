@@ -10,6 +10,8 @@ export default {
         tan: '#EBE6DB',
         gold: '#E1C453',
         orange: '#CD500C',
+        emerald: '#80F0AD',
+        coral: '#F0837F',
         jet: '#333130',
         black: '#000000',
         oxford: '#0B1139',

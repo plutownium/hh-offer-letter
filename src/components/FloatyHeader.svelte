@@ -4,7 +4,7 @@
 </script>
 
 <div class="w-full h-24 fixed flex justify-center bg-blue">
-  <div class="w-11/12 sm:w-10/12 md:w-8/12 flex justify-between">
+  <div class="w-11/12 sm:w-10/12 md:w-9/12 flex justify-between">
     <div class="mr-4 h-full flex justify-start items-center">
       <!-- large screen -->
       <h2 class="text-off-white text-2xl font-bold hidden lg:block">By BowTiedHeadhunter</h2>
