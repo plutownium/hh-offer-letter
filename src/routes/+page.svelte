@@ -1,19 +1,13 @@
 <script>
-  // import { Head } from 'svelte/head'
-
-  import BigBeautifulButton from '../components/BigBeautifulButton.svelte'
-  import ExtraPaddingLeft from '../components/ExtraPaddingLeft.svelte'
-  import GreenBox from '../components/GreenBox.svelte'
-  import PaddingBox from '../components/PaddingBox.svelte'
-  import RedBox from '../components/RedBox.svelte'
-  import StandardBox from '../components/StandardBox.svelte'
-  import TechniqueHeadline from '../components/TechniqueHeadline.svelte'
-  import WideBox from '../components/WideBox.svelte'
+  import { onMount } from 'svelte'
 
   import '../app.css'
-  import FloatyHeader from '../components/FloatyHeader.svelte'
   import LandingCTAButton from '../components/LandingCTAButton.svelte'
   import Logo from '../components/Logo.svelte'
+
+  onMount(() => {
+    document.body.style.visibility = 'visible'
+  })
 </script>
 
 <!-- todo: verify looks good on mobile & tablet -->
