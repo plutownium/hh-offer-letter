@@ -36,7 +36,7 @@
         class="h-full px-4 sm:px-12 lg:px-24 xl:px-40 py-8 flex justify-center items-center bg-sand"
       >
         <h2 class="font-bold text-center text-oxford text-xl">
-          This is a 1718x ROI for anyone working in the following roles. (We did the math.)
+          This is a 1718x ROI for anyone working in the following roles.<br /> (We did the math.)
         </h2>
       </div>
     </div>
@@ -53,7 +53,7 @@
         <li>Systems engineer</li>
         <li>Cloud engineer</li>
         <li>Program manager</li>
-        <li>Project managers</li>
+        <li>Project manager</li>
         <li>Person in the above list who wants to see a $20,000 to $60,000 pay increase.</li>
         <li>Person in the above list who wants to be in the top 5% of earners for their role.</li>
       </ul>
