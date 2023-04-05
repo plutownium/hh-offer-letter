@@ -303,7 +303,7 @@
     <h3 class="px-2 sm:px-6 lg:px-12 xl:px-20 text-2xl">Would you rather have:</h3>
     <!-- // todo: "this' on " the left, "or this" on the right. -->
     <!-- todo: style on mobile -->
-    <div class="flex">
+    <div class="flex flex-col sm:flex-row">
       <div
         class="py-4 pl-2 sm:pl-6 lg:pl-12 xl:pl-20 pr-1 sm:pr-2 lg:pr-6 xl:pr-12 text-strong-coral"
       >
@@ -1195,6 +1195,9 @@
       <p>If you’re unsure you want to start earning $20,000 or more additional dollars per year…</p>
       <p>Remember that you could get a raise this week by following my advice.</p>
 
+      <div class="mt-8 w-full flex justify-center">
+        <BigBeautifulButton />
+      </div>
       <!-- // todo: insert direct link to cart on gumroad -->
     </div>
   </PaddingBox></StandardBox

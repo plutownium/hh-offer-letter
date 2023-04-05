@@ -13,7 +13,7 @@
         By BowTiedHeadhunter
       </h2>
       <!-- small screen -->
-      <h2 class="text-off-white text-lg font-bold sm:hidden block">By BowTiedHeadhunter</h2>
+      <h2 class="text-off-white text-base font-bold sm:hidden block">BowTied<br />Headhunter</h2>
     </div>
     <div class="flex items-center">
       <HeaderButton />
