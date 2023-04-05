@@ -263,11 +263,11 @@
     </div>
 
     <div>
-      <h3 class="text-2xl">I’d like to show you how you can get from there, to here:</h3>
+      <h3 class="text-4xl">I’d like to show you how you can get from there, to here:</h3>
     </div>
 
     <div>
-      <h3 class="text-2xl">After:</h3>
+      <!-- <h3 class="text-2xl">After:</h3> -->
 
       <p>
         You’re paid what you’re worth. Ahead of the pack. The companies you work for see you as top
@@ -290,14 +290,16 @@
 </StandardBox>
 <WideBox>
   <!-- px-4 sm:px-12 lg:px-24 xl:px-40 -->
-  <div class="px-2 sm:px-6 lg:px-12 xl:px-20 border-4 border-coral">
+  <div class="px-2 sm:px-6 lg:px-12 xl:px-20">
     <h3 class="px-2 sm:px-6 lg:px-12 xl:px-20 text-2xl">Would you rather have:</h3>
     <!-- // todo: "this' on " the left, "or this" on the right. -->
     <!-- todo: style on mobile -->
     <div class="flex">
-      <div class="py-4 pl-2 sm:pl-6 lg:pl-12 xl:pl-20 pr-1 sm:pr-2 lg:pr-6 xl:pr-12 bg-coral">
-        <h4 class="underline text-2xl font-bold">This...</h4>
-        <ul class="list-with-bullets pl-5">
+      <div
+        class="py-4 pl-2 sm:pl-6 lg:pl-12 xl:pl-20 pr-1 sm:pr-2 lg:pr-6 xl:pr-12 text-strong-coral"
+      >
+        <h4 class="mb-4 underline text-2xl font-bold">This...</h4>
+        <ul class="list-with-bullets-with-big-text pl-5 text-3xl">
           <li>
             Turned down for a raise by your boss. He raises his hand to silence you mid pitch.
           </li>
@@ -309,10 +311,12 @@
           </li>
         </ul>
       </div>
-      <div class="py-4 pr-2 sm:pr-6 lg:pr-12 xl:pr-20 pl-1 sm:pl-2 lg:pl-6 xl:pl-12 bg-emerald">
-        <h4 class="underline text-2xl font-bold">Or this?</h4>
+      <div
+        class="py-4 pr-2 sm:pr-6 lg:pr-12 xl:pr-20 pl-1 sm:pl-2 lg:pl-6 xl:pl-12 text-strong-emerald"
+      >
+        <h4 class="mb-4 underline text-2xl font-bold">Or this?</h4>
 
-        <ul class="list-with-bullets pl-5">
+        <ul class="list-with-bullets-with-big-text pl-5 text-3xl">
           <li>
             Welcomed into day 1 of a new role with 37% higher TC; they say “glad we got you out of
             there”
@@ -404,9 +408,9 @@
   ><PaddingBox>
     <div>
       <!-- // big white colored text against white bg  -->
-      <h2 class="text-green text-2xl">
-        To the degree that you’re willing to practice a handful of <span class="font-bold"
-          >well defined, doable exercises,</span
+      <h2 class="text-green text-4xl">
+        To the degree that you’re willing to practice a handful of <span
+          class="font-bold text-strong-emerald">well defined, doable exercises,</span
         > you will be able to learn to interview like an expert negotiator.
       </h2>
     </div>
@@ -892,57 +896,69 @@
 <div class="bg-nigh-black">
   <StandardBox
     ><PaddingBox>
-      <div>
-        <h2 class="text-3xl">The secret methods you’ll receive to increase your salary include:</h2>
+      <div class="secret-text-sizing">
+        <h2 id="secret-box-headline" class="font-bold text-5xl text-center text-blue">
+          The Salary Increase Special
+        </h2>
+        <h3 id="secret-box-headline" class="text-4xl">
+          The secret methods you’ll receive to increase your salary include:
+        </h3>
 
-        <p class="text-lg">
-          <span class="underline">Secret #1</span>: The three step process to turning your work
-          experience into a resume bullet point that looks like a gold mine to hungry employers.
+        <p class="">
+          <span class="underline font-bold">Secret #1</span>: The three step process to turning your
+          work experience into a resume bullet point that looks like a gold mine to hungry
+          employers.
         </p>
-        <p class="text-lg">
-          <span class="underline">Secret #2</span>: Whether to spam apply or craft a custom resume
-          per job ad.
+        <p>
+          <span class="underline font-bold">Secret #2</span>: Whether to spam apply or craft a
+          custom resume per job ad.
         </p>
-        <p class="text-lg">
-          <span class="underline">Secret #3</span>: How you can use LinkedIn to put yourself at the
-          front of the line.
+        <p>
+          <span class="underline font-bold">Secret #3</span>: How you can use LinkedIn to put
+          yourself at the front of the line.
         </p>
-        <p class="text-lg">
-          <span class="underline">Secret #4</span>: The five most common questions employers have
-          about candidates.
+        <p>
+          <span class="underline font-bold">Secret #4</span>: The five most common questions
+          employers have about candidates.
         </p>
-        <p class="text-lg">
-          <span class="underline">Secret #5</span>: Four objections I hear from employers every
-          single week… and how to answer them.
+        <p>
+          <span class="underline font-bold">Secret #5</span>: Four objections I hear from employers
+          every single week… and how to answer them.
         </p>
-        <p class="text-lg">
-          <span class="underline">Secret #6</span>: Who is on your side in the hiring process & what
-          to ask them to reveal insights into decision makers’ thought processes.
+        <p>
+          <span class="underline font-bold">Secret #6</span>: Who is on your side in the hiring
+          process & what to ask them to reveal insights into decision makers’ thought processes.
         </p>
-        <p class="text-lg">
-          <span class="underline">Secret #7</span>: Why you should act like you’re all on the same
-          team & how that helps you.
+        <p>
+          <span class="underline font-bold">Secret #7</span>: Why you should act like you’re all on
+          the same team & how that helps you.
         </p>
-        <p class="text-lg">
-          <span class="underline">Secret #8</span>: Why keeping your home address on your resume
-          could be costing you thousands of dollars a year.
+        <p>
+          <span class="underline font-bold">Secret #8</span>: Why keeping your home address on your
+          resume could be costing you thousands of dollars a year.
         </p>
       </div>
     </PaddingBox></StandardBox
   >
 </div>
 
-<StandardBox
-  ><PaddingBox>
-    <div>
-      <h2 class="underline">Frequently Asked Questions</h2>
+<!-- <StandardBox -->
+<!-- ><PaddingBox> -->
+<div class="mt-20 bg-celeste">
+  <WideBox>
+    <div class="pb-12 px-4 sm:px-12 lg:px-24 xl:px-40">
+      <h2 id="faq-headline" class=" underline text-4xl text-center font-bold text-blue">
+        Frequently Asked Questions
+      </h2>
 
-      <p>Q: Will your service work for me even if I’m not a top performer?</p>
+      <p class="question-text text-blue">
+        Q: Will your service work for me even if I’m not a top performer?
+      </p>
 
       <p>
-        A: I speak to, on average, 12 companies *per week* and have an inside look at what they
-        REALLY care about. I’ll tell you exactly what the candidates who get the most offers have in
-        common on their resumes.
+        I speak to, on average, 12 companies *per week* and have an inside look at what they REALLY
+        care about. I’ll tell you exactly what the candidates who get the most offers have in common
+        on their resumes.
       </p>
 
       <p>
@@ -950,9 +966,9 @@
         points to how you are perceived via my resume advice.
       </p>
 
-      <p>Q: Will I be able to implement the advice properly?</p>
+      <p class="question-text text-blue">Q: Will I be able to implement the advice properly?</p>
       <p>
-        A: All day long at my day job, I coach candidates that I think are winners into presenting
+        All day long at my day job, I coach candidates that I think are winners into presenting
         themselves well to employers. I guarantee I can help you make a big improvement to your job
         searching skills that will add 10 to 50% to your compensation.
       </p>
@@ -960,26 +976,28 @@
         If it doesn’t work for you, you can take the full amount off the cost of my Done For You
         service.
       </p>
-      <p>Q: Will this work even if I can’t negotiate?</p>
-      <p>A: This guide will show you proven, tested strategies for negotiating.</p>
-      <p class="font-bold">
-        You’ll receive the exact strategies and techniques for negotiating a higher salary companies
-        can’t counter.
+      <p class="question-text text-blue">Q: Will this work even if I can’t negotiate?</p>
+      <p>This guide will show you proven, tested strategies for negotiating.</p>
+      <p class="">
+        You’ll receive the <span class="underline">exact strategies and techniques</span> for negotiating
+        a higher salary companies can’t counter.
       </p>
-      <p>Q: Will the guide won’t work even when the economy is bad?</p>
+      <p class="question-text text-blue">
+        Q: Will the guide won’t work even when the economy is bad?
+      </p>
       <p>
-        A: When the job market takes a dive, top earners continue to receive the highest
-        compensation in the marketplace. <span class="underline"
+        When the job market takes a dive, top earners continue to receive the highest compensation
+        in the marketplace. <span class="underline"
           >Being good at job hunting, selling yourself and negotiating means that you’ll be paid
           well regardless of how the market is doing</span
         >.
       </p>
 
-      <p>
+      <p class="question-text text-blue">
         Q: What if I’m not good enough at my job to earn more money? What if I haven’t worked hard
         enough to earn a raise?
       </p>
-      <p>A: I’ll tell you directly that this belief is a huge part of why you’re underpaid.</p>
+      <p>I’ll tell you directly that this belief is a huge part of why you’re underpaid.</p>
       <p>
         High paid employees recognize that <span class="underline"
           >while hard work does pay off, it isn’t the only variable that decides compensation</span
@@ -997,26 +1015,34 @@
         <span class="italic">So even if you’re a slacker</span>, you can still use this advice to
         earn more money.
       </p>
-      <p>Q: What if the company can’t afford to give me a raise?</p>
+      <p class="question-text text-blue">Q: What if the company can’t afford to give me a raise?</p>
       <p>
-        A: Your company spends millions of dollars a year on labor. You can estimate this value by
+        Your company spends millions of dollars a year on labor. You can estimate this value by
         taking the number of people in your office and multiplying it by your current salary.
         Whether you have 5 coworkers or 50, it’s going to be a number so large that an additional
         $20,000 won’t be noticed.
       </p>
-      <p>Q: Could I get this advice from another recruiter?</p>
+      <p class="question-text text-blue">Q: Could I get this advice from another recruiter?</p>
       <p>
         Nope. Recruiters serve their clients, namely the company will help rip you off. Recruiters
         won’t and don’t tell you the secrets you can only get here.
       </p>
     </div>
-  </PaddingBox></StandardBox
->
+  </WideBox>
+</div>
+<!-- </PaddingBox></StandardBox -->
+<!-- > -->
 
 <StandardBox>
   <PaddingBox>
-    <div>
-      <h2 class="text-3xl">Become One of A Hundred People to Invest This Month</h2>
+    <div class="mt-12 pb-12">
+      <div class="flex justify-center">
+        <div class="w-4/5">
+          <h2 class="text-5xl text-center text-blue font-bold">
+            Become One of A Hundred People to Invest This Month
+          </h2>
+        </div>
+      </div>
 
       <p>
         Invest today to ensure you don’t lose access to advice that will add 10 to 30% to your
@@ -1043,7 +1069,7 @@
 
       <!-- // big bold centered text -->
       <div class="w-full flex justify-center">
-        <div>
+        <div class="text-center">
           <div>
             <h3 class="text-2xl">What I could charge: <span class="line-through">$3,000</span></h3>
           </div>
@@ -1059,34 +1085,36 @@
   </PaddingBox>
 </StandardBox>
 
+<WideBox>
+  <div class="px-4 sm:px-12 lg:px-24 xl:px-40 bg-celeste pt-8 pb-16">
+    <h2 class="text-5xl text-blue font-bold text-center">
+      A Guaranteed Return On Investment: Absolutely Zero Risk!
+    </h2>
+
+    <p>
+      Provide screenshots proving you sent out 1,000 applications since investing in this service
+      without getting responses. You’ll receive five free 1 on 1 sessions to examine what you’re
+      doing well… and what needs work.
+    </p>
+    <p>I am able to offer this guarantee because the offer works and works well.</p>
+
+    <p>You do the work to apply the advice.</p>
+    <p>You send out your resume.</p>
+    <p>You prove you did it.</p>
+    <p>No results? No problem.</p>
+    <p>
+      I’ll give you five hours of my time across five weeks to show you exactly what you’ve done
+      well… and what needs work.
+    </p>
+  </div>
+</WideBox>
+
 <StandardBox
   ><PaddingBox>
-    <div>
-      <h2 class="text-3xl">A Guaranteed Return On Investment</h2>
-
-      <p>
-        Provide screenshots proving you sent out 1,000 applications since investing in this service
-        without getting responses. You’ll receive five free 1 on 1 sessions to examine what you’re
-        doing well… and what needs work.
-      </p>
-      <p>I am able to offer this guarantee because the offer works and works well.</p>
-
-      <p>You do the work to apply the advice.</p>
-      <p>You send out your resume.</p>
-      <p>You prove you did it.</p>
-      <p>No results? No problem.</p>
-      <p>
-        I’ll give you five hours of my time across five weeks to show you exactly what you’ve done
-        well… and what needs work.
-      </p>
-    </div>
-  </PaddingBox></StandardBox
->
-
-<StandardBox
-  ><PaddingBox>
-    <div>
-      <h2 class="underline text-2xl">Act Now Or Miss Out</h2>
+    <div class="mt-16">
+      <!-- <div class="px-8 py-8 bg-coral"> -->
+      <h2 class="text-center font-bold text-5xl">Get Your Resume Revamped Today (Or Miss Out)</h2>
+      <!-- </div> -->
 
       <p>
         To ensure that these job hunting and negotiating techniques stay secret, I only offer this
@@ -1101,8 +1129,12 @@
         Since you wouldn’t get much value out of it if every employer could counter these
         negotiation techniques, I have to avoid giving it out too often.
       </p>
-      <p>There’s another reason you need to act now:</p>
-      <p>Because if you let this opportunity pass by, you’ll have the same income next year…</p>
+      <p class="font-bold">There’s another reason you need to act now:</p>
+      <p>
+        <span class="font-bold"
+          >If you let this opportunity pass by, you’ll have the same income next year…</span
+        >
+      </p>
       <p>And next year…</p>
       <p>And the next.</p>
       <p>You’ll continue to work with the knowledge that you are undervalued and underpaid.</p>
@@ -1112,7 +1144,8 @@
 
 <StandardBox
   ><PaddingBox>
-    <div>
+    <div class="mb-48">
+      <p>Do you want this change?</p>
       <p>The people I’ve helped before you have told me:</p>
       <p>They’re glad to have changed, and enjoy their new life.</p>
       <p>Is this change right for you?</p>
@@ -1142,6 +1175,30 @@
   .list-with-bullets > li {
     list-style-type: disc;
     font-size: 20px;
+  }
+
+  .list-with-bullets-with-big-text > li {
+    list-style-type: disc;
+    font-size: 20px;
+  }
+
+  .question-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  #faq-headline {
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #secret-box-headline {
+    margin-top: 48px;
+  }
+
+  .secret-text-sizing > p {
+    font-size: 28px;
+    margin-top: 20px;
   }
 
   p,

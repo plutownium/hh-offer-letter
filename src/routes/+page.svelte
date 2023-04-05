@@ -15,7 +15,7 @@
 </script>
 
 <!-- todo: verify looks good on mobile & tablet -->
-<div class="h-full bg-celeste">
+<div class="h-full bg-azure">
   <div class="w-full h-full flex justify-center items-center">
     <div class="w-3/5 h-full">
       <div class="mt-24 mb-12">
