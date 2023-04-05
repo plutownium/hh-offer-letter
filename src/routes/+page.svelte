@@ -10,15 +10,11 @@
   import TechniqueHeadline from '../components/TechniqueHeadline.svelte'
   import WideBox from '../components/WideBox.svelte'
 
-  // import '../app.css'
+  import '../app.css'
   import FloatyHeader from '../components/FloatyHeader.svelte'
   import LandingCTAButton from '../components/LandingCTAButton.svelte'
   import Logo from '../components/Logo.svelte'
 </script>
-
-<svelte:head>
-  <link rel="stylesheet" href="/src/app.css" />
-</svelte:head>
 
 <!-- todo: verify looks good on mobile & tablet -->
 <div class="h-full bg-azure">

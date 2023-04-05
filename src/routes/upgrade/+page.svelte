@@ -8,13 +8,9 @@
   import TechniqueHeadline from '../../components/TechniqueHeadline.svelte'
   import WideBox from '../../components/WideBox.svelte'
 
-  // import '../../app.css'
+  import '../../app.css'
   import FloatyHeader from '../../components/FloatyHeader.svelte'
 </script>
-
-<svelte:head>
-  <link rel="stylesheet" href="/src/app.css" />
-</svelte:head>
 
 <!-- fixme: FOUC -->
 <FloatyHeader />
