@@ -93,7 +93,7 @@
       ><div class="">
         <h2 class="text-oxford text-4xl">
           <span class="font-bold">If this is you,</span> it means you’re about to find out how you could
-          increase your total compensation by 10 to 30% using a few hours of work.
+          increase your total compensation by 20 to 40% using a few hours of work.
         </h2>
       </div>
       <div>
@@ -1096,7 +1096,7 @@
       </div>
 
       <p>
-        Invest today to ensure you don’t lose access to advice that will add 10 to 30% to your
+        Invest today to ensure you don’t lose access to advice that will add 20 to 40% to your
         income.
       </p>
       <p>I should be pricing this at $1,500.</p>
