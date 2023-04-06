@@ -199,7 +199,7 @@
         <p>Even when people do apply the Internet’s advice, they often come up short…</p>
         <p>Because their job hunting and interview skills often need work.</p>
         <p>
-          You can’t find better job offers if you can’t get to the interview stage… or make
+          You can’t find better job offers if you can’t even get to the interview stage… or make
           interviewers love you as a candidate.
         </p>
 
@@ -637,9 +637,12 @@
         <span class="underline">Tip #3</span>: Use language from the job post you are applying to.
       </h3>
 
-      <p>It takes far more time, but the upside is huge: Recruiters will recognize</p>
-      <p>Your application really was crafted specifically for that posting.</p>
-      <p>Your skills really match exactly what they asked for.</p>
+      <p>It takes far more time, but the upside is huge: Recruiters will recognize:</p>
+      <!-- fixme -->
+      <ol type="A" class="mt-4 list-with-bullets pl-5">
+        <li>Your application really was crafted specifically for that posting.</li>
+        <li>Your skills really do match exactly what they asked for.</li>
+      </ol>
       <p>Without your application matching the job post’s language…</p>
       <p>The recruitment team has to do a lot of thinking to understand how you’d fill the role.</p>
       <p>When you use language that matches the job post, they understand exactly:</p>
